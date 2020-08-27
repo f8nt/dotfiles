@@ -10,6 +10,8 @@
 separator=true
 separator_block_width=25
 
+full_text=
+
 [Go]
 full_text=Go Docs
 website=https://golang.org/pkg/
@@ -22,6 +24,13 @@ website=https://doc.rust-lang.org/std/index.html
 command=xdg-open "$website"
 color=#FF7F7F
 
+[ip]
+command=hostname -i | awk '{ print $1 }'
+interval=once
+color=#91E78B
+
 [time]
 command=date '+%m-%d-%Y %H:%M'
-interval=1
+interval=5
+
+[nothing]
