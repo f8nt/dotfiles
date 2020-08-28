@@ -25,3 +25,4 @@ export PAGER="/usr/bin/most -s"
 alias vi=nvim
 alias vim=nvim
 alias neofetch=pfetch
+alias syncat=pygmentize

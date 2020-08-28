@@ -11,8 +11,9 @@ Plug 'morhetz/gruvbox'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
-set nu
-
+" hybrid line numbers
+:set number relativenumber
+:set nu rnu
 
 colo gruvbox
 syntax on
